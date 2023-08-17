@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(227, 231, 232);
+}
+
+.navbar {
+    background-color:rgb(132 137 140);
+    border-radius: 8px;
+    padding-top: 3px;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    padding: 13px 21px;
+
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.navbar img {
+    height: 30px;
+    margin: -4px 0px 5px 0px;
+}
+
+.navbar a:hover {
+    text-shadow: 5px 5px 5px red;
+    background-color: aqua;
+    cursor: pointer;
+    color: tomato;
+    text-decoration: underline;
+
+}
+
+.navbar input:hover {
+    border: red 2px solid;
+    background: skyblue;
+}
+
+.search {
+    float: right;
+    color: white;
+    padding: 9px 46px;
+    font-size: 15px;
+}
+
+.navbar input {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 3px 17px;
+    border-radius: 15px;
+    font-family: cursive;
+    width: 129px;
+}
+
+
+.section {
+    height: 600px;
+    width: 100%;
+    /* border: red solid; */
+    display: flex;
+}
+
+#left {
+    height: 596px;
+    width: 80%;
+    /* border: rgb(0, 255, 110) solid; */
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#right {
+    height: 100%;
+    width: 20%;
+    /* border: rgb(0, 255, 110) solid; */
+    float: left;
+    border-radius: 175px;
+   
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(200%);
+    transition: filter 300ms;
+    /* object-fit: cover; */
+
+}
+#right:is(:hover,:focus){
+    filter: grayscale(0%);
+
+}
+
+
+
+#left h3,
+h2 {
+    text-align: center;
+
+}
+
+#left pre{
+    padding:2vh;
+    margin: 2vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* #btn {margin: 50px;
+    
+    
+    font-family: 'Ubuntu', sans-serif;
+    display: inline-flex;
+    
+}
+#btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: 100px;
+}
+#btn2  a{
+    padding: 25px;
+    
+} */
+.skill li{
+    /* text-align: center; */
+    font-family: 'Ubuntu',sans-serif;
+    padding: 3px;
+    margin-left: 3px;
+    
+}
+.skill ul{
+    margin-left: 5vh;
+    
+}
+.web li{
+    margin-left: 5vh;
+    padding: 2px;
+    
+}
+.web h3{
+    margin-left: 5vh;
+    padding-left: 20vh;
+    text-decoration-line: underline;
+    
+}
+.web a{
+    text-decoration: none;  
+text-align: center;   
+color: black;
+font-size: 20px;
+}
+/* list-style: none;  } */
+.web a:hover{
+/* background-color: rgb(107, 132, 132); */
+    cursor: pointer;
+    /* color: rgb(230, 216, 214); */
+    text-decoration: underline;
+    text-transform: lowercase;
+
+}
+.python li{
+margin-left: 5vh;
+padding: 2px;
+}
+.python h3{
+margin-left: 5vh;
+padding-left: 20vh;
+text-decoration-line: underline;
+}
+.python a{
+text-decoration: none;
+color: black;
+font-size: 20px;
+}
+.python a:hover{
+text-transform: lowercase;
+text-decoration-line: underline;
+cursor:pointer;
+
+
+}
+.resume p{
+font-family: "ubuntu",sans-serif;
+font-size: 20px;
+/* margin-left: 5vh; */
+text-align: center;
+}
+.resume button{
+margin-left: 48%;
+
+
+}
+.resume a{
+text-decoration: none;
+font-size: 2.5vh;
+color: black;
+
+}
+.resume a:hover{
+text-transform: capitalize;
+font-style: italic;
+
+}
+.footer{
+text-align: center;
+font-family: 'Ubuntu', sans-serif;
+/* margin: 5vh; */
+}
+hr{
+
+margin-top: 5vh;
+
+}
+.icon i{
+font-size: 5vh;
+padding: 0vh 0vh 0vh 4vh;
+
+margin-left: 5vh;
+}
